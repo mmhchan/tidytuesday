@@ -43,7 +43,7 @@ expeditions_daily_all %>%
   labs(title = "Expeditions are most frequent around April and October for the top 10 travelled peaks 2000-2019",
        caption = "Visualisation: Michael Chan • Data: The Himalayan Database") +
   theme_minimal() +
-  theme(plot.background = element_rect(fill = "#818aa1"),
+  theme(plot.background = element_rect(color = "#818aa1", fill = "#818aa1"),
         plot.title = element_text(size = 16, face = "bold", color = "grey80"),
         axis.title = element_blank(),
         axis.text.x = element_text(size = 12, colour = "grey80"),
